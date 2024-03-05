@@ -6,7 +6,16 @@ function App() {
 
   return (
     <>
-      <h1>hello</h1>
+      <div id="header">
+        <h1 id="title">Aniverse</h1>
+        <h1>tabs</h1>
+      </div>
+      <div id="mainContent">
+        <h1>body</h1>
+      </div>
+      <div>
+        <h1 id="footer">footer</h1>
+      </div>
     </>
   );
 }
